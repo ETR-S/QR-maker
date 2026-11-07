@@ -4,7 +4,7 @@ path = "C:\\Users\\Asus\\Desktop\\qrcode.png"
 qr = qrcode.QRCode()
 qr.add_data(url)
 img = qr.make_image()
-the_user_input = input("do you want to save the qrcode? y/n")
+the_user_input = input("do you want to save the qrcode? y/n").strip().lower()
 if the_user_input == "y":
     img.show()
     img.save(path)

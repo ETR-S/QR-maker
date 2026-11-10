@@ -15,3 +15,12 @@ Uppercase letters and surrounding spaces are also accepted. For example, ` Y ` w
 - `n`: should show the QR code without saving.
 
 Actual results: all four checks passed
+
+## How to run
+
+1. Open `qr.py` 
+2. Install `qrcode` and `Pillow` in the project's Python interpreter.
+3. If using another computer, change the `path` value to your own Desktop location, keeping `qrcode.png` as the filename.
+4. run `qr.py`.
+5. Enter a link.
+6. Enter `y` to display and save the QR code, or `n` to display it without saving.
